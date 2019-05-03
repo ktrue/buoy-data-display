@@ -1,0 +1,49 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|United_Kingdom.jpg|706,470|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|54.6N|9W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+63105||463,61,499,75|
+62142||496,335,533,351|
+62145||570,331,606,347|
+62144||493,311,530,326|
+63110||513,106,550,123|
+63113||510,48,548,63|
+63104||512,25,548,41|
+63112||461,41,496,56|
+63117||463,22,499,36|
+62091||355,317,390,333|0,-28|
+62094||325,374,364,389|0,-28|
+62092||306,391,342,407|
+62090||241,328,277,344|
+62093|Donegal Bay|282,279,318,294|
+62303||412,379,448,395|
+62107||338,425,374,441|
+62103||404,430,438,444|
+62114||512,152,549,167|
+62301||372,357,406,373|
+62304||546,393,583,409|
+62305||510,415,546,430|
+64046||371,60,407,74|
+62125||441,298,476,312|
+62081||254,398,288,414|
+62108||81,317,116,331|
+62105||219,285,255,300|
+64045||235,122,271,137|
+#
+# ---------- end of control file --------

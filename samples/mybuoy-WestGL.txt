@@ -1,0 +1,62 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|WestGL.jpg|630,543|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|45N|89W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+WHRI2||337,477,377,489|
+BSBM4||452,340,494,355|0,-28|
+GTLM4||505,263,544,276|
+PCLM4||348,111,389,125|
+SXHW3||247,163,287,175|
+THLO1||583,509,619,520|0,-28|
+LTRM4||574,170,613,184|
+GSLM4|Gravelly Shoals Light|560,351,599,365|
+AGMW3||405,305,451,320|
+NPDW3||371,247,411,261|0,-28|
+SYWW3||365,267,408,281|
+GBLW3|Green Bay Entrance Light|329,303,371,318|
+CHII2||356,500,387,515|
+MCYI3||434,524,472,538|
+SVNM4||466,471,507,485|
+MKGM4||463,409,510,422|
+KNSW3||331,451,374,468|
+MLWW3||326,418,372,435|
+APNM4|Alpena Harbor Light|564,272,608,288|
+THRO1||568,526,607,540|
+LDTM4||454,359,493,374|
+DTLM4|DeTour Village|542,205,581,219|
+RCKM4|Rock Cut Michigan|526,187,567,200|
+SWPM4||554,154,598,170|
+PTIM4||508,170,544,183|
+MCGM4||351,164,397,179|
+CMTI2||352,522,390,535|
+DULM5||107,148,147,163|
+GDMM5||196,78,240,93|
+45007|S MICHIGAN|429,449,463,465|40,-15|
+SGNW3|Sheboygan, WI|336,369,379,385|
+45002|N MICHIGAN|449,242,485,255|12,-2|
+STDM4|Stannard Rock, MI|418,120,458,135|
+45004|E SUPERIOR|453,92,491,106|
+DISW3|Devils Island, WI|182,127,217,141|
+45006|W SUPERIOR|277,109,315,126|
+ROAM4|Rock of Ages, MI|254,69,295,82|
+PILM4|Passage Island, MI|304,46,340,60|
+45001|MID SUPERIOR|388,57,424,71|38,-15|
+45136||429,24,467,39|
+#
+# ---------- end of control file --------

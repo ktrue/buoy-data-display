@@ -1,0 +1,67 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|buoy/northeast/NorthEast.jpg|722,406|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|42.5N|70.5W|500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+BRHC3|Bridgeport, CT|212,218,250,230|
+BDRN4|Burlington, Delaware River, NJ|142,292,180,305|
+NBLP1|Newbold, PA|114,270,152,282|
+WELM1|Wells, ME|363,109,404,122|
+SGRN4|Sea Girt, NJ|207,282,247,295|
+BRBN4|Brant Beach, NJ|194,306,234,320|
+NTKM3|Nantucket Island, MA|407,223,447,239|
+MTKN6|Montauk, NY|329,236,370,251|
+PSBM1|Eastport, ME|648,26,688,42|
+LDLC3|New London Ledge CT|324,218,356,232|
+NLNC3|New London, CT|303,196,341,213|
+CASM1|Portland, ME|397,84,436,99|
+44039|Central Long Island Sound|324,260,360,275|
+NWHC3|New Haven, CT|251,205,292,218|
+PHBP1|Philadelphia, PA|85,287,121,304|
+OSGN6|Oswego, NY|46,104,87,118|
+44024|Buoy N - Northeast Channel|663,162,702,176|
+ABAN6|Alexandria Bay, NY|41,46,81,61|
+THIN6|Thousand I. Brdg., NY|67,72,102,87|
+SUPN6|Superior Shoals, NY|93,50,132,64|
+44039|Central Long Island Sound|275,235,306,250|
+44027|Jonesport, Maine|628,61,664,78|
+# 44017|Montauk Point, NY|300,500,325,286|
+44018|SE Cape Cod|507,217,543,232|
+MDRM1|Mt Desert Rock, ME|571,82,613,98|
+44034|Eastern Maine Shelf|567,55,603,71|
+44033|West Penobscot Bay|472,69,509,84|
+MISM1|Matinicus Rock, ME|528,94,568,109|
+44032|Central Maine Shelf|476,87,512,103|
+44037|Jordan Basin|589,108,623,123|
+44035|Cobscook Bay|596,26,632,41|
+44036|Saint John|661,11,699,25|
+44038|Scotian Shelf|677,94,712,109|
+44005|Gulf of Maine|522,130,559,148|
+44031|Casco Bay|451,103,488,119|
+44007|Portland,ME|411,104,443,117|
+44030|Western Maine Shelf|425,124,460,140|
+IOSN3|Isle of Shoals, NH|375,129,412,144|
+44029|Mass. Bay/Stellwagen|421,152,455,167|
+44013|Boston, MA|371,167,407,182|
+BUZM3|Buzzards Bay, MA|410,197,449,212|
+44011|Georges Bank|673,227,707,242|
+44008|Nantucket|491,258,529,274|
+44025|Long Island, NY|257,272,292,286|
+44004|Cape May,NJ|381,369,418,384|
+#
+# ---------- end of control file --------

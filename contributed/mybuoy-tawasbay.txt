@@ -1,0 +1,47 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|huronbuoys2.gif|272,286|70,140|
+#
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|44.50N|82.42W|250|
+# for location central to your mesomap.  
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+RCKM4|Rock Cut Michigan|10, 6, 72, 21|58,-20|
+DTLM4|DeTour Village|28, 25, 84, 45|
+45154|North Channel East|97, 20, 152, 39|35,-31|
+45137|Georgian Bay|186, 56, 246, 83|0,-5|
+45143|South Georgian Bay|209, 100, 266, 126|0,-5|
+45003|N. Huron- Alpena|84, 76, 141, 97|0,-32|
+APNM4|Alpena Harbor Light|55, 100, 116, 119|
+45008|S. Huron- Oscoda|108, 163, 162, 178|
+GSLM4|Gravelly Shoals Light|42, 174, 103, 194|
+HRBM4|Harbor Beach|94, 190, 152, 210|-10,0|
+45149|Southern Lake Huron|89, 223, 145, 243|-16,-3|
+FTGM4|Fort Gratiot|65, 263, 125, 283|-40,-17|
+#
+# ---------- end of control file --------
+
+
+
+
+
+
+
+
+
+
+
+
+

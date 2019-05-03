@@ -1,0 +1,68 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|/buoy/florida/Florida.jpg|634,439|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|28.77N|82.71W|750|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+41008|Grays Reef|399,14,436,30|0,-28|
+42408|SE of New Orleans, LA|42,318,83,335|
+FRDF1|Fernandina Beach, FL|327,50,360,63|-12,0|
+MYPF1|Mayport, FL|377,63,413,79|38,-15|
+41112|Offshore Fernandina Beach, FL|376,46,414,61|0,-28|
+SECG1|U.S. Navy Tower R4 GA|426,42,465,57|38,-15|
+BGCF1|Big Carlos Pass, FL|300,266,338,281|38,-15|
+VENF1|Venice, FL|321,228,359,245|0,-28|
+42013|C10 - Navy-2|245,229,284,246|
+42022|West Florida Central Buoy|236,195,273,210|
+42021|Pasco County, FL|226,166,260,182|
+HSSF1|Homosassa, FL|307,144,343,158|
+TRDF1|Trident Pier, FL|369,155,406,171|0,-28|
+42014|W. FL Sea-Coos|277,324,315,343|0,-28|
+42024|W. FL MERHAB|175,209,213,226|
+VAKF1|Virginia Key, FL|437,289,476,306|38,-15|
+SGOF1|Tyndall Tower, FL|194,115,234,130|
+APCF1|Apalachicola, FL|138,95,177,112|
+KYWF1|Key West, FL|307,351,345,367|
+42023|West Florida South Buoy|240,283,277,302|
+42003|East Gulf|91,287,131,303|0,-28|
+PLSF1|Pulaski Shoal Light, FL|258,348,295,365|
+SANF1|Sand Key, FL|308,380,344,395|
+NFBF1|Northwest Florida Bay, FL|346,322,384,338|
+SMKF1|Sombrero Key, FL|375,371,415,388|38,-15|
+LONF1|Long Key, FL|400,355,439,371|42,-15|
+MLRF1|Molasses Reef, FL|422,336,463,353|42,-15|
+FWYF1|Fowey Rocks, FL|442,312,481,328|38,-15|
+LKWF1|Lake Worth, FL|394,254,434,270|
+NPSF1|Naples, FL|304,284,343,301|
+FMRF1|Fort Myers, FL|300,248,338,264|0,-24|
+VCAF1|Vaca Key, FL|346,346,383,362|0,-28|
+SHPF1|Shell Point, FL|222,71,260,85|
+PCLF1|Pensacola, FL|69,48,107,65|0,-28|
+SPGF1|Settlement Point, GBI|503,250,542,267|
+41009|Cape Canaveral|433,155,471,173|
+41010|Cape Canaveral East|519,136,556,154|
+41012|St. Augustine, FL|412,79,452,97|
+CDRF1|Cedar Key, FL|290,122,327,137|
+42036|West Tampa|162,156,201,174|
+42039|Pensacola|81,142,120,157|
+SAUF1|St. Augustine, FL|333,88,368,107|
+KTNF1|Keaton Beach, FL|259,90,296,108|
+PCBF1|Panama City Beach, FL|139,58,178,76|
+42040|Mobile South|26,121,61,137|
+DPIA1|Dauphin Island, AL|7,82,43,98|
+#
+# ---------- end of control file --------

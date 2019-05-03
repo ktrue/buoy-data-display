@@ -1,0 +1,29 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|WestAtlantic.jpg|729,378|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|28N|63W|1000|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+41424|370 NM East of Charleston, SC|79,23,112,35|
+41048|West Bermuda|150,52,183,65|
+BEPB6|Bermuda Esso Pier|285,43,320,55|
+41047|Northeast Bahamas|101,193,134,206|
+41049|Atlantic South|330,194,363,207|
+41046|East Bahamas|115,297,148,308|
+41420|690 NM East of Miami, FL|214,314,246,327|
+41421|320 NM North of San Juan, PR|311,311,342,324|
+# ---------- end of control file --------

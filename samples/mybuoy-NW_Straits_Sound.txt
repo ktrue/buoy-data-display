@@ -1,0 +1,37 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NW_Straits_Sound.jpg|581,423|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|48.1N|123.4W|300|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+TCNW1||445,322,485,337|
+EBSW1||452,260,491,274|
+PTWW1||396,170,437,186|
+NEAW1||157,125,196,141|
+FRDW1||363,93,402,109|
+CHYW1||396,39,437,54|
+PTAW1|Port Angeles, WA|249,169,288,183|
+46041|CAPE ELIZABETH|139,309,173,324|
+WPOW1|West Point, WA|375,254,418,268|
+SISW1|Smith Island, WA|385,137,421,151|
+46088|NEW DUNGENESS,|289,133,325,148|
+DESW1|Destruction Is., WA|117,251,157,265|
+TTIW1|Tatoosh Island, WA|80,124,114,140|
+46087|NEAH BAY, WA|138,102,175,116|
+46134||244,75,281,91|
+#
+# ---------- end of control file --------

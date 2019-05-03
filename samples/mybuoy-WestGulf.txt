@@ -1,0 +1,46 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|WestGulf.jpg|620,406><IMG|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|27.4N|92.5W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+42362||486,146,521,163|
+42361||407,148,441,164|
+PCNT2||182,107,224,124|
+PTIT2||152,230,188,245|
+MQTT2||141,154,183,170|
+FPTT2||234,87,274,104|
+CAPL1||375,40,410,55|
+FGBL1||349,118,385,134|
+42038|North Mid Gulf of Mexico|403,167,438,183|
+RSJT2||137,195,173,210|
+BABT2||135,173,176,187|
+RTOT2||209,149,248,165|
+SBPT2||330,37,367,54|
+PTAT2|Port Aransas, TX|157,139,194,154|
+42044||206,238,243,253|
+42043||303,91,339,106|
+42045||231,220,266,236|
+42047||355,153,390,167|
+42046||291,142,326,158|
+42020|Corpus Christi, TX|227,188,263,203|
+42019|Freeport, TX|236,132,272,146|
+42002|W GULF|321,274,357,290|
+42001|MID GULF|531,239,565,254|
+SRST2|Sabine, TX|332,66,371,81|
+#
+# ---------- end of control file --------

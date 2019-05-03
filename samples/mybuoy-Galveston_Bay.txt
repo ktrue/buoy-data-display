@@ -1,0 +1,27 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Galveston_Bay.jpg|592,397|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|29.31N|94.79W|200|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+42035|22NM East of Galveston|500,312,536,329|
+GPST2|Galveston Pleasure Pier, TX|385,290,424,306|
+GTOT2|Galveston Pier 21, TX|329,279,369,295|0,-28|
+EPTT2|Eagle Point, TX|270,191,310,209|
+MGPT2|Morgans Point, TX|236,86,277,102|
+#
+# ---------- end of control file --------

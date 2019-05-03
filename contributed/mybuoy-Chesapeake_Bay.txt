@@ -1,0 +1,60 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Chesapeake_Bay.jpg|683,481|385,225|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|38.22N|75.49W|250|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+#  X/Y parameters by Steve @ The Belcak Weather Station  -   http://www.belcak.com
+#
+CHCM2|Chesapeake City, MD|217,7,254,19|-7,2|
+TCBM2|Tolchester Beach, MD|195,60,232,72|-2,2|
+HPLM2|Horn Point Weather Station, MD|164,141,201,153|-2,-28|
+CAMM2|Cambridge, MD|227,155,264,167|-2,2|
+BISM2|Bishops Head, MD|225,213,262,225|-2,2|
+WAHV2|Wachapreague, VA|291,298,328,310|-2,2|
+KPTV2|Kiptopeke, VA|239,364,276,376|-2,-28|
+BLTM2|Baltimore, MD|85,49,122,61|-2,-28|
+FSKM2|Francis Scott Key Bridge, MD|95,65,132,77|-2,2|
+TPLM2|Thomas Point, MD|107,108,144,120|0,-28|
+WASD2|Washington, DC|13,110,50,122|-2,2|
+44044|Patuxent River Buoy|95,181,132,193|-2,-28|
+CBIM2|Chesapeake Biological Laboratory Weather Station, MD|108,201,145,213|-76,-13|
+PPTM2|Piney Point, MD|97,222,134,234|-2,2|
+BRBN4|Brant Beach, NJ|539,4,576,16|-2,2|
+ACYN4|Atlantic City, NJ|501,49,538,61|-2,2|
+ACMN4|Atlantic City Marina|447,25,484,37|-2,-28|
+AVAN4|Avalon, NJ|452,80,489,92|-2,2|
+LWSD1|Lewes, DE|381,130,418,142|-2,2|
+44009|26 NM SE of Cape May, NJ|455,170,492,182|-2,2|
+CMAN4|Cape May, NJ|408,104,445,116|-2,1|
+BRND1|Brandywine Shoal Light|334,95,371,107|-2,2|
+RDYD1|Reedy Point, DE|301,19,338,31|-2,2|
+DELD1|Delaware City, DE|304,2,341,14|45,-13|
+LWTV2|Lewisetta, VA|157,241,194,253|-2,2|
+RPLV2|Rappahannock Light, VA|178,308,215,320|-2,-28|
+YKRV2|York River East Rear Range Light, VA|178,346,215,358|-2,-28|
+CHLV2|Chesapeake Light, VA|286,405,323,417|-2,2|
+44014|64NM East of Virginia Beach, VA|431,453,468,465|-2,-28|
+CBBV2|Chesapeake Bay Bridge Tunnel, VA|200,384,237,396|45,-13|
+YKTV2|Yorktown, VA|108,351,145,363|-2,2|
+CHYV2|Cape Henry, VA|209,412,246,424|-2,2|
+SWPV2|Sewells Point, VA|131,389,168,401|-76,-13|
+MNPV2|Money Point, VA|157,435,194,447|-2,2|
+CRYV2|South Craey Island, VA|132,410,169,422|-76,-13|
+SLIM2|Solomon's Island, MD|161,194,198,206|45,-13|
+#
+# ---------- end of control file --------

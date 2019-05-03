@@ -1,0 +1,58 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Chesapeake_Bay.jpg|683,471|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|38.5N|76W|500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+CHYV2||209,410,246,424|
+CRYV2||132,408,175,422|
+YKRV2||171,346,219,359|
+PPTM2||97,221,140,234|
+BISM2||224,213,261,226|
+DELD1||295,0,337,14|44,-15|
+BRND1||331,95,378,108|
+RDYD1||295,18,336,31|44,-15|
+44044||95,179,131,195|
+YKTV2||106,349,147,363|
+WASD2||10,107,52,124|
+BLTM2||84,47,125,64|0,-28|
+CBIM2||108,199,143,215|
+HPLM2||162,140,203,156|
+44009|DELAWARE BAY|452,167,492,184|
+LWSD1||382,127,420,145|
+CMAN4||406,103,449,117|
+AVAN4||450,77,492,94|
+44014|VIRGINIA BEACH|425,451,469,467|0,-28|
+CHLV2|Chesapeake Light, VA|282,403,325,419|
+CBBV2||199,383,238,400|
+KPTV2||239,362,277,378|
+MNPV2||156,433,197,450|
+SWPV2||131,387,174,404|
+WAHV2||284,295,331,314|
+RPLV2||178,307,218,322|
+LWTV2||158,240,198,255|
+SLIM2||158,191,197,208|
+CAMM2||224,153,267,170|
+TPLM2|Thomas Point, MD|105,106,146,122|
+FSKM2||94,64,133,79|
+TCBM2||193,57,234,74|
+ACYN4||499,47,539,63|
+CHCM2||218,8,259,23|
+ACMN4||445,23,489,40|
+BRBN4||538,3,578,18|
+#
+# ---------- end of control file --------

@@ -1,0 +1,36 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|WestCoast_inset.jpg|598,461|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|42.74N|124.50W|200|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46229||232,143,268,160|
+46213||221,441,256,455|0,-28|
+46212||295,412,331,426|
+46022|EEL RIVER|237,400,273,415|0,-28|
+HBYC1||312,382,349,398|5,-2|
+CECC1||316,300,354,315|
+46027|ST GEORGES|249,292,285,307|
+PORO3|Port Orford, OR|292,207,334,222|
+46015|Port Orford|214,207,251,223|
+CARO3|Cape Arago, OR|239,163,278,180|
+CHAO3||305,136,345,153|5,0|
+NWPO3|Newport, OR|284,39,326,55|
+46050|STONEWALL BANKS|240,23,275,38|
+SBEO3||321,9,359,27|
+#
+# ---------- end of control file --------

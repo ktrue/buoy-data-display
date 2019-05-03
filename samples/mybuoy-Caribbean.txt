@@ -1,0 +1,30 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Caribbean.jpg|631,328|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|16N|58W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+41041|Middle Atlantic|576,184,609,200|
+41040|West Atlantic|464,185,499,199|
+LTBV3|Lime Tree Bay, VI|192,106,230,122|-15,+5|
+CHAV3|Charlotte Amalie, VI|190,87,229,102|0,-30|
+MGIP4|Magueyes Islands, PR|84,105,122,120|
+SJNP4|San Juan, PR|106,80,143,95|0,-30|
+41101|East of Martinique|391,187,426,201|
+41100|Lesser Antilles|350,149,384,164|
+#
+# ---------- end of control file --------

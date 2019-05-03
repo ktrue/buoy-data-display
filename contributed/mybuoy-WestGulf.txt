@@ -1,0 +1,46 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|/buoy/west_gulf/WestGulf.jpg|620,406><IMG|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|27.4N|92.5W|750|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+42362|Brutus - Green Canyon|486,146,521,163|
+42361|Auger - Garden Banks|407,148,441,164|
+PCNT2|Port O'Connor, TX|182,107,224,124|
+PTIT2|Port Isabel, TX|152,230,188,245|
+MQTT2|Malaquite Beach, TX|141,154,183,170|
+FPTT2|Freeport, TX|234,87,274,104|
+CAPL1|Calcasieu Pass, LA|375,40,410,55|
+FGBL1|High Island 334|349,118,385,134|
+42038|North Mid Gulf of Mexico|403,167,438,183|
+RSJT2|Potrero Lopeno SW, TX|137,195,173,210|
+BABT2|Baffin Bay, TX|135,173,176,187|
+RTOT2|RTNS Offshore, TX|209,149,248,165|
+SBPT2|Sabine Pass North, TX|330,37,367,54|
+PTAT2|Port Aransas, TX|157,139,194,154|
+42044|PS-1126 TABS J|206,238,243,253|
+42043|GA-252 TABS B|303,91,339,106|
+42045|PI-745 TABS K|231,220,266,236|
+42047|HI-A389 TABS V|355,153,390,167|
+42046|HI-A595 TABS N|291,142,326,158|
+42020|Corpus Christi, TX|227,188,263,203|
+42019|Freeport, TX|236,132,272,146|
+42002|West Gulf|321,274,357,290|
+42001|Mid Gulf|531,239,565,254|
+SRST2|Sabine, TX|332,66,371,81|
+#
+# ---------- end of control file --------

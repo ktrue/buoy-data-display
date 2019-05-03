@@ -1,0 +1,35 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|France.jpg|616,344|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|47.5N|8.5W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+61002||537,325,573,340|0,-28|
+61001||553,275,591,290|-17,0|
+62001||275,208,313,225|
+62163|Brittany Buoy|237,134,274,150|
+62029||111,81,146,98|
+62052||266,89,302,104|
+62103||323,48,361,62|
+62305||435,22,472,39|
+62304||475,0,511,16|38,-15|
+# note: map has no legend drawn for 62101, but there's data
+#62101||312,12,348,26|
+62107||256,34,291,50|
+62081||157,4,191,19|
+#
+# ---------- end of control file --------

@@ -1,0 +1,33 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Long_Island.jpg|613,498|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|41.07N|73.13W|100|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+BRHC3||229,74,271,87|
+PTJN6||415,433,453,449|42,-15|
+OFPN6||419,384,457,403|0,-32|
+SOSN6||380,338,421,355|
+SCSN6||365,303,404,321|
+MISN6||346,255,383,273|
+MISC3||327,228,364,242|
+NCSC3||289,179,328,194|
+NOSC3||270,146,312,160|
+FWIC3||250,98,287,114|
+BHRC3||157,52,197,68|-15,-26|
+#
+# ---------- end of control file --------

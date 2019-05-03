@@ -1,0 +1,58 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Southwest_inset.jpg|659,408|355,320|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|33.65N|120.2W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46215|Diablo Canyon, CA|202,7,239,21|
+PSLC1|Port San Luis, CA|264,22,302,36|
+46011|SANTA MARIA|191,59,225,75|52,-15|
+46023|PT ARGUELLO|192,79,228,94|52,-15|
+PTGC1|Point Arguello, CA|272,96,312,111|
+#
+46218|Harvest, CA|206,101,244,116|
+46216|Goleta Point, CA|349,112,383,130|0,-28|
+46054|SANTA BARBARA W|289,121,325,135|+4,+2|
+46228|Pitas Point, CA|397,124,433,140|0,-28|
+46063|Pt.Conception, CA|221,134,257,150|
+46217|Anacapa Passage, CA|393,148,430,163|
+46053|SANTA BARBARA E|313,151,349,166|
+SMOC1|Santa Monica, CA|490,161,530,178|45,-15|
+46220|El Porto, CA|492,178,529,194|45,-15|
+46221|Santa Monica Bay, CA|431,181,464,195|0,-28|
+46025|Santa Monica|379,197,414,213|
+OHBC1|Los Angeles, CA|511,198,548,214|45,-15|
+#
+46069|S. Santa Rosa Is., CA|264,210,302,225|
+46222|San Pedro, CA|458,214,495,229|
+46230|Huntington Beach, CA|540,216,574,232|45,-15|
+46223|Dana Point, CA|514,235,552,249|
+46219|San Nicolas Island, CA|302,263,337,279|
+46224|Oceanside Offshore, CA|544,268,581,284|
+LJPC1|La Jolla, CA|613,298,649,312|0,-42|
+#
+46225|Torrey Pines Outer, CA|553,302,591,316|-35,-15|
+LJAC1|La Jolla, CA|614,312,650,327|0,-44|
+46231|Mission Bay, CA|555,322,590,336|-35,-15|
+SDBC1|San Diego, CA|620,330,656,344|
+46227|Point Loma, CA|549,339,585,355|-35,-15|
+46086|San Clemente Basin|488,353,526,370|
+46047|TANNER BANKS|386,360,422,375|
+46232|Coronado Islands, MX|567,365,602,378|
+46412|190 nm WSW San Diego|214,386,250,400|
+#
+# ---------- end of control file --------

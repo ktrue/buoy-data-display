@@ -1,0 +1,63 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|WestGL.jpg|630,543|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|45N|89W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+45136|Slate Island|429,24,467,39|40,-15|
+PILM4|Passage Island, MI|304,46,340,60|-40,-31|
+45001|NNE of Hancock, MI|388,57,424,71|40,-15|
+ROAM4|Rock of Ages, MI|254,69,295,82|-30,-31|
+GDMM5|Grand Marais, MN|196,78,240,93|-10,-32|
+45004|ENE of Hancock, MI|453,92,491,106|40,-15|
+45006|North of Ironwood, MI|277,109,315,126|-10,0|
+PCLM4|Portage Canal, MI|348,111,389,125|
+STDM4|Stannard Rock, MI|418,120,458,135|42,-15|
+DISW3|Devils Island, WI|182,127,217,141|-10,-32|
+DULM5|Duluth, MN|107,148,147,163|0,-32|
+SWPM4|S.W. Pier, MI|554,154,598,170|20,-30|
+MCGM4|Marquette C.G., MI|351,164,397,179|-10,-2|
+SXHW3|Saxon Harbor, WI|247,163,287,175|
+PTIM4|Point Iroquois, MI|508,170,544,183|-40,-30|
+LTRM4|Little Rapids, MI|574,170,613,184|40,-15|
+RCKM4|Rock Cut, MI|526,187,567,200|-63,-17|
+DTLM4|De Tour Village, MI|542,205,581,219|20,0|
+45002|N MICHIGAN|449,242,485,255|40,-17|
+NPDW3|Death's Door, WI|371,247,411,261|-30,-30|
+GTLM4|Grand Traverse Lt, MI|505,263,544,276|42,-19|
+SYWW3|Sister Bay, WI|365,267,408,281|-45,-3|
+APNM4|Alpena Harbor Lt, MI|564,272,608,288|
+GBLW3|Green Bay Ent Lt, WI|329,303,371,318|
+AGMW3|Algoma Marina, WI|405,305,451,320|47,-19|
+BSBM4|Big Sable Point, MI|452,340,494,355|15,-32|
+GSLM4|Gravelly Shoals Lt, MI|560,351,599,365|
+LDTM4|Ludington, MI|454,359,493,374|
+SGNW3|Sheboygan, WI|336,369,379,385|-20,-2|
+MKGM4|Muskegon, MI|463,409,510,422|47,-15|
+MLWW3|Milwaukee, WI|326,418,372,435|-20,-2|
+45007|ESE of Milwaukee, WI|429,449,463,465|40,-15|
+KNSW3|Kenosha, WI|331,451,374,468|42,-13|
+SVNM4|South Haven, MI|466,471,507,485|-10,0|
+WHRI2|Waukegan Harbor, IL|337,477,377,489|-40,-2|
+CHII2|Chicago, IL|356,500,387,515|38,-15|
+CMTI2|Calumet, IL|352,522,390,535|-15,0|
+MCYI3|Michigan City, IN|434,524,472,538|-10,0|
+THLO1|Toledo Light # 2, OH|583,509,619,520|-13,-32|
+THRO1|Toledo, OH|568,526,607,540|-10,0|
+#
+# ---------- end of control file --------
+# This format by jmcmurry 5/07 - jmcmurry@mwt.net - jcweather.us

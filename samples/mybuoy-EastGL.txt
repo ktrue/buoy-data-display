@@ -1,0 +1,56 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|EastGL.jpg|613,452|350,100|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|44.5N|79.4W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+GSLM4|Gravelly Shoals Light|59,171,100,187|
+THLO1||80,352,119,367|0,-28|
+APNM4|Alpena Harbor Light|66,99,109,115|
+THRO1||13,370,53,386|0,-28|
+MRHO1||103,388,144,402|
+BRFN6||325,268,364,283|
+FTGM4|Fort Gratiot|121,262,165,277|
+OSGN6||458,224,502,239|
+HRBM4|Harbor Beach|110,194,154,209|
+DTLM4|DeTour Village|41,25,82,42|
+RCKM4|Rock Cut Michigan|22,2,68,19|
+45159||291,248,328,264|38,-15|
+45160||230,229,267,246|
+45012|Lake Ontario Buoy|408,215,446,231|
+LSCM4|Lake St Clair, MI|52,298,96,313|
+45147||110,311,145,326|
+SBIO1|South Bass Island, OH|49,387,85,403|
+45005|West Lake Erie|127,371,162,387|
+45132|Port Stanley|193,309,232,325|
+DBLN6|Dunkirk, NY|304,305,343,322|
+45142|Port Colborne|296,284,332,299|38,-15|
+45139|West Lake Ontario|294,229,329,246|38,-15|
+45135|Prince Edward Pt|388,195,425,210|0,-28|
+ABAN6|Alexandria Bay, NY|436,160,476,174|-9,-28|
+THIN6|Thousand I. Brdg., NY|494,161,531,176|
+SUPN6|Superior Shoals, NY|501,142,539,158|0,-28|
+45151|Lake Simcoe|243,140,281,154|
+45149|Southern Lake Huron|145,221,183,238|
+45008|S. Huron- Oscoda|125,161,162,176|
+45143|South Georgian Bay|229,108,267,121|
+45137|Georgian Bay|206,63,242,80|
+45003|N. Huron- Alpena|97,78,133,92|0,-28|
+45152||280,5,318,22|
+45154|North Channel East|112,19,153,36|0,-28|
+#
+# ---------- end of control file --------

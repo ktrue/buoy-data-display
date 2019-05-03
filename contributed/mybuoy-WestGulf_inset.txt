@@ -1,0 +1,45 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|buoy/west_gulf_inset/WestGulf_inset.jpg|674,|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|29N|90W|500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+GISL1|Grand Isle, LA|372,164,405,177|0,-28|
+42362|Brutus - Green Canyon|288,395,322,411|
+42363|Mississippi Canyon 807|478,340,514,355|
+LABL1|Bayou LaBranch, LA|324,58,361,75|
+MRSL1|Marsh Island, LA|45,149,85,166|
+42067|USM3M01|552,58,588,74|
+WAVM6|Waveland, MS|397,23,441,38|
+BYGL1|Bayou Gauche, LA|318,97,357,113|
+LABL1|Bayou LaBranch, LA|269,51,306,68|
+MRSL1|Marsh Island, LA|45,149,85,166|
+LUML1|LUMCON Marine Center, LA|228,178,267,194|0,-28|
+SIPM6|Ship Island Pass, MS |504,20,541,35|
+SLPL1|Salt Point, LA|172,130,207,145|
+TAML1|Tambour Bay, LA|230,201,267,216|
+ILDL1|Isle Dernieres, LA|304,206,336,222|
+BURL1|Southwest Pass, LA|450,228,485,242|
+GDIL1|Grand Isle, LA|375,181,410,197|
+DPIA1|Dauphin Island, AL|631,26,665,41|
+TRBL1|Terrebonne Bay, LA|297,175,333,190|
+SPLL1|South Timbalier Block 52, LA|314,235,350,249|
+42040|Dauphin Island, AL|609,170,643,185|
+42007|Biloxi, MS|479,49,515,64|
+LKPL1|Lake Ponchartrain, LA|282,14,321,29|
+#
+# ---------- end of control file --------

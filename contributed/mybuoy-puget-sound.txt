@@ -1,0 +1,39 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NW_Straits_Sound.jpg|581,423|230,200|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|47N|122W|750|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+# +35 +15
+TCNW1|Tacoma|440,325,477,340|20,0|
+WPOW1|West Point|375,253,414,268|-10,0|
+EBSW1|Seattle|453,260,488,275|20,0|
+PTWW1|Port Townsend|396,170,435,185|43,-13|
+SISW1|Smith Island|386,138,420,153|40,-13|
+PBFW1|Padilla Bay Reserve|429,101,464,116|20,0|
+CHYW1|Cherry Point|398,40,433,55|40,-13|
+FRDW1|Friday Harbor|365,96,400,111|0,0|
+46134|Pat Bay|245,76,280,91|0,0|
+46088|New Dungeness|290,133,325,148|0,0|
+PTAW1|Port Angeles|247,170,284,185|0,0|
+46087|Neah Bay|138,101,172,116|0,0|
+NEAW1|Neah Bay|151,131,186,146|0,0|
+TTIW1|Tatoosh Island|82,125,117,140|0,0|
+LAPW1|La Push|148,201,183,216|0,0|
+DESW1|Destruction Island|116,252,151,267|0,0|
+46041|Cape Elizabeth|132,300,167,315|0,0|
+#
+# ---------- end of control file --------

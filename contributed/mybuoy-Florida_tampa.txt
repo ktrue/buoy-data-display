@@ -1,0 +1,40 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Central_Florida.jpg|563,498|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|28.77N|82.71W|500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+42013|C10 - Navy-2|209,413,248,431|
+42021|Pasco County Buoy|132,154,169,170|
+42022|West Florida Central Buoy|37,336,75,354|
+ANCF1|Anclote Gulf Park|252,174,287,190
+ANMF1|Anna Maria|260,330,298,346|
+ARPF1|Aripeka|278,122,317,139|
+CWBF1|Clearwater Beach|244,227,284,244|
+EGKF1|Egmont Key|257,311,295,327|
+ERTF1|Berth 223 Met|335,232,370,247|
+FHPF1|Fred Howard Park|250,192,286,206|
+HSSF1|Homosassa|270,46,308,63|
+MCYF1|McKay Bay Entranc|385,242,425,258|
+OPTF1|Old Port Tampa|355,260,394,274|
+PMAF1|Port Manatee|353,306,393,321|
+PTRF1|Port Richey|262,156,301,172|
+SAPF1|St. Petersburg|341,278,376,292|
+TARF1|Tarpon Springs|315,189,350,204|
+VENF1|Venice|326,438,368,455|
+#
+# ---------- end of control file --------

@@ -1,0 +1,51 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top | Controls X,Y
+MAPIMAGE|slobuoymap2.jpg|571,500|263,226||
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|35N|120W|600|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46042|Monterey|32,53,69,68|0,-28|
+46093|MBM2|34,71,69,87|
+46091|MBM0|126,43,161,57|+38,-15|
+46092|MBM1|114,58,149,73|+38,-15|
+MTYC1|Monterey|125,76,166,91|+42,-15|
+46028|Cape San Martin|78,190,115,207|+48,-18|
+46215|Diablo Canyon, CA|134,210,171,227|+48,-18|
+PSLC1|Port San Luis, CA|195,226,233,243|
+46011|Santa Maria|122,264,157,281|+52,-18|
+46023|Point Arguello|122,284,159,300|+52,-18|
+46218|Harvest|139,305,177,322|
+PTGC1|Point Arguello|204,300,244,317|+42,-15|
+46063|Pt.Conception|152,339,190,357|
+46054|Santa Barbara W|219,326,257,343|+4,-2|
+46216|Goleta Point|279,318,315,336|+42,-20|
+46228|Pitas Point|328,330,366,347|+42,-20|
+46053|Santa Barbara E|243,354,281,371|
+46217|Anacapa Passage|324,352,361,369|+42,-20|
+46069|South Santa Rosa Is.|196,414,234,431|
+46025|Santa Monica|308,402,347,419|
+46221|Santa Monica Bay|361,386,396,403|0,-28|
+SMOC1|Santa Monica|422,366,463,383|+46,-18|
+46220|El Porto|423,385,461,401|+42,-18|
+OHBC1|Los Angeles|442,405,481,419|+46,-18|
+46222|San Pedro|389,419,426,436|
+46230|Huntington Beach|473,420,508,437|+38,-18|
+46223|Dana Point|448,439,484,456|
+46219|San Nicolas Island|232,467,270,483|0,-28|
+46224|Oceanside Offshore|476,473,513,490|
+#
+# ---------- end of control file --------

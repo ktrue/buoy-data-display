@@ -1,0 +1,67 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NorthEast.jpg|722,406|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|42.5N|70.5W|500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+BDRN4|Delaware River, NJ|149,292,180,305|
+NBLP1|Newbold, PA|114,270,152,282|+3,-28|
+WELM1|Wells, ME|363,109,404,122|-60,-14|
+SGRN4|Sea Girt, NJ|207,282,247,295|
+BRBN4|Brant Beach, NJ|200,307,238,320|
+NTKM3|Nantucket Island, MA|407,223,447,239|
+PSBM1|Eastport, ME|648,25,688,42|+2,+2|
+LDLC3|Ledge Light|324,218,356,232|
+NLNC3|New London, CT|303,196,341,213|+0,-30|
+CASM1|Portland, ME|397,84,436,99|+0,-27|
+44039|Long Island Sound|269,238,305,251|
+NWHC3|New Haven, CT|251,205,292,218|+0,-25|
+PHBP1|Philadelphia, PA|89,287,121,304|
+OSGN6|Oswego, NY|46,104,87,118|
+44024|Northeast Channel|663,162,702,176|
+ABAN6|Alexandria Bay, NY|41,46,81,61|
+THIN6|Thousand I. Brdg., NY|67,72,102,87|
+SUPN6|Superior Shoals, NY|93,50,132,64|
+44027|Jonesport|628,61,664,78|
+44017|Southwest of Montauk |330,241,366,276|
+44018|SE Cape Cod|507,217,543,232|
+MDRM1|Mt Desert Rock, ME|571,82,613,98|+3,-2|
+44034|Eastern Maine Shelf|567,55,603,71|
+44033|West Penobscot Bay |472,69,509,84|+3,-27|
+MISM1|Matinicus Rock, ME||528,94,568,109|
+44032|Central Maine Shelf|476,87,512,103|+2,+2|
+44037|Jordan Basin|599,113,640,128|
+44035|Cobscook Bay|596,26,632,41|-18,-2|
+44038|Scotian Shelf|677,94,712,109|
+44005|Gulf of Maine|522,130,559,148|
+44031|Casco Bay||451,103,488,119|
+44007|Portland|415,104,443,117|+3,+2|
+44030|Western Maine Shelf||425,124,460,140|
+IOSN3|Isle of Shoals, NH|375,129,412,144|+43,-12|
+44029|Stellwagen|430,152,465,167|
+44013|Boston|378,167,407,182|
+BUZM3|Buzzards Bay, MA|422,203,461,218|
+44011|Georges Bank|673,227,707,242|-5,-2|
+44008|Nantucket|491,258,529,274|
+44025|Long Island|262,274,292,288|
+44004|Hotel 200NM East of Cape May, NJ|381,369,418,384|+49,-14|
+CMAN4|Cape May, NJ|159,330,189,350|
+LWSD1|Lewes, DE|95,360,135,380|
+BRND1|Brandywine Shoal Light, DE|100,340,134,355|
+44009|Delaware Bay, 26NM S. of Cape May|169,369,190,385|
+#
+# ---------- end of control file --------

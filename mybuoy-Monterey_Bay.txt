@@ -1,0 +1,42 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Monterey_Bay.jpg|550,485|50,225|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|37N|122W|750|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46014|Point Arena, CA|155,5,190,21|
+PTAC1|Point Arena, CA|172,36,209,52|
+ANVC1|Arena Cove, CA|226,49,262,65|
+46013|Bodega Bay|206,134,244,151|
+PCOC1|Port Chicago, CA|364,155,401,170|39,-15|
+PRYC1|Point Reyes, CA|236,165,273,180|
+46214|Point Reyes, CA|209,222,246,237|
+TIBC1|Tiburon Pier, SF Bay, CA|286,180,318,193|
+RCMC1|Richmond, CA|333,173,371,188|39,-15|
+AAMC1|Alameda, CA|341,196,381,210|44,-15|
+46026|San Francisco, CA|251,196,285,212|-10,-3|
+FTPC1|San Francisco, CA|301,202,330,213|
+RTYC1|Redwood City, CA|347,229,386,244|44,-15|
+46012|Half Moon Bay, CA|246,250,282,264|
+46091|MBM0|374,320,408,334|44,-15|
+46042|Monterey, CA|281,330,317,345|-5,-32|
+46092|MBM1|365,337,400,350|44,-15|
+46093|MBM2|281,347,317,362|
+MTYC1|Monterey, CA|374,351,413,364|44,-15|
+46028|Cape San Martin|326,467,365,483|-5,-32|
+#
+# ---------- end of control file --------

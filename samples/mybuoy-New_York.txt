@@ -1,0 +1,29 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|New_York.jpg|633,390|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|40.81N|73.78W|100|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+44022||379,104,409,119|
+44040||459,67,495,82|
+ALSN6|Ambrose Light, NY|348,299,389,317|
+SDHN4||236,291,277,307|
+BGNN4||160,210,203,225|
+KPTN6|Kings Point, NY|366,133,407,152|
+BATN6||227,185,265,201|
+#
+# ---------- end of control file --------

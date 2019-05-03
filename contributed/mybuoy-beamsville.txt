@@ -1,0 +1,32 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# contributed by Ann-Marie (weathergirl) from http://www.beamsvillewx.ca/
+#   Lake Ontario, Lake Erie buoys
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|beamsville.jpg|613,340|400,180|
+#
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|43.26N|79.54W|400|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+45012|Lake Ontario Buoy|459, 93, 468, 101|-2,+3|
+45135|Prince Edward Pt|500, 74, 508, 82|+12,-12|
+45139|West Lake Ontario|301, 122, 310, 131|-2,+3|
+45142|Port Colborne|312, 187, 321, 195|-2,+3|
+45132|Port Stanley|161, 214, 170, 222|-2,+3|
+45005|West Lake Erie|69, 294, 77, 301|-2,+3|
+#
+# ---------- end of control file --------

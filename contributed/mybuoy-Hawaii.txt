@@ -1,0 +1,33 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Hawaii.jpg|600,620|25,300|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|21.16N|157.2W|1000|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+51001|170 NM WNW of Kauai|20,5,67,24||
+51WH0|Woods Hole Ocean Time-series|290,7,342,26||
+51201|Waimea Bay, HI|208,119,253,137||
+51202|Mokapu Point, HI|310,143,357,161||
+OOUH1|Honolulu, HI|240,175,297,194||
+KLIH1|Kahului Bay, Maui|418,180,465,200|0,-35|
+#51407||150,220,170,230|| not used.. DART Buoy.. only reports water depth
+51203|Kaumalapau, HI|317,209,364,228||
+51003|205 NM SW of Honolulu|20,382,65,401||
+51002|215 NM SSW of Hilo|299,581,344,601||
+51004|185 NM SE of Hilo|515,580,563,600||
+#
+# ---------- end of control file --------

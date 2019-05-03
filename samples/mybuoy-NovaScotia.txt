@@ -1,0 +1,31 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NovaScotia.jpg|623,322|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|44N|57W|1000|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+44150|La Have Bank|68,258,105,272|
+44138|SW Grand Banks|460,159,503,182|
+44251|Nickerson Bank|469,46,511,63|
+44137|East Scotia Slope|199,268,238,285|
+44258|Halifax Harbor|145,152,182,170|
+44139|Banqureau Banks|318,158,358,179|
+44141|Laurentian Fan|354,230,386,249|
+44140|Tail of the Bank|532,186,572,203|
+44255|NE Burgeo Bank|321,5,358,22|47,-15|
+#
+# ---------- end of control file --------

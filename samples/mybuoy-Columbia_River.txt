@@ -1,0 +1,28 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Columbia_River.jpg|624,421|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|46.23N|123.96W|250|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+ASTO3||237,291,278,305|
+TOKW1||179,103,220,118|
+MLTO3||326,280,365,293|
+DMNO3|Desdemona Sands Light, OR|180,271,222,286|
+46029|COL RIVER BAR|48,308,87,325|
+46211||115,52,151,66|
+#
+# ---------- end of control file --------

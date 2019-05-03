@@ -1,0 +1,36 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Alaska_inset.jpg|750,432|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|60N|149.5W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46076|CAPE CLEARE|504,316,539,332|
+46061|Seal Rocks|604,191,640,206|
+46060|West Orca Bay|606,129,642,144|
+BLIA2|Bligh Reef Light, AK|600,83,634,99|
+POTA2|Potato Point, AK|562,43,604,60|
+MRKA2|Middle Rock Light, AK|615,29,655,44|
+AMAA2|East Amatuli Stn Light, AK|161,413,203,430|0,-28|
+FILA2||158,347,191,359|
+PILA2|Pilot Rock, AK|375,276,408,293|
+46081|WESTERN PRINCE|427,90,464,107|
+AUGA2|Augustine Island, AK|38,337,78,353|
+DRFA2|Drift River Terminal, AK|143,133,181,150|
+NKTA2||208,111,246,128|
+ANTA2||337,10,378,25|
+#
+# ---------- end of control file --------

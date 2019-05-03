@@ -1,0 +1,39 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Central_Florida.jpg|563,498|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|28N|83W|250|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+OPTF1||355,260,394,274|40,-15|
+PMAF1||353,306,393,321|
+FHPF1||250,192,286,206|
+ANCF1||252,174,287,190|40,-15|
+42022||37,336,75,354|
+42013||209,413,248,431|
+VENF1|Venice, FL|326,438,368,455|
+ANMF1||260,330,298,346|
+EGKF1||257,311,295,327|0,-30|
+42021||132,154,169,170|
+CWBF1||244,227,284,244|
+SAPF1||341,278,376,292|40,-15|
+MCYF1||385,242,425,258|40,-15|
+TARF1||315,189,350,204|
+PTRF1||262,156,301,172|40,-15|
+ARPF1||278,122,317,139|
+HSSF1||270,46,308,63|
+#
+# ---------- end of control file --------

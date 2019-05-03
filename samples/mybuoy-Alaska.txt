@@ -1,0 +1,59 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Alaska.jpg|741,440|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|56N|152.5W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+46077|SHELIKOF STRAI|297,239,333,255|
+46409||426,304,463,319|
+46657||544,351,565,370|
+46698||412,391,437,414|
+46073|SOUTHEAST BERI|118,311,155,326|
+46207||612,420,650,433|
+46004|Middle Nomad|529,418,568,434|
+NMTA2||141,101,183,116|
+ADKA2||49,380,90,395|
+46632||606,324,622,345|
+46637||446,179,463,199|
+46071|AMCHITKA|17,409,54,425|
+46078|ALBATROSS BANK|319,287,355,301|
+46075|SHUMAGIN ISLAN|206,338,242,351|
+AMAA2||318,223,360,238|
+46402||206,424,243,438|
+46403||256,378,292,392|
+46082|Cape Suckling|483,203,520,217|
+46080|Northwest Gulf|405,239,442,252|
+46072|Central Aleutians|115,398,152,413|
+46084|Cape Edgecumbe|529,273,565,287|
+46147||595,392,631,409|
+46183||596,345,633,360|
+46145||632,323,667,339|
+46181||680,340,715,355|
+46185||666,379,703,393|
+46204||679,404,716,419|
+46208||574,374,612,390|
+46205||554,330,590,346|
+46184||496,336,533,350|
+46083|Fairweather Grounds|560,234,597,250|
+46001|GULF OF AK|428,280,463,294|
+FFIA2|Five Finger, AK|617,254,651,269|
+PRDA2||364,9,406,22|
+AUGA2|Augustine Island, AK|300,208,341,221|
+46035|BERING SEA|41,259,79,274|
+46066|S Aleutians|336,374,373,388|
+#
+# ---------- end of control file --------

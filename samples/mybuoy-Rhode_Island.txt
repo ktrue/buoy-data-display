@@ -1,0 +1,30 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Rhode_Island.jpg|606,408|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|41.64N|71.34W|100|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+BUZM3|Buzzards Bay, MA|534,346,574,362|
+NWPR1||310,257,348,274|
+PTCR1||298,152,337,167|
+QPTR1||172,192,213,206|
+FRVM3||464,97,507,110|
+BLTM3||400,96,439,111|
+CPTR1||294,86,334,104|
+FOXR1||243,15,281,31|
+#
+# ---------- end of control file --------

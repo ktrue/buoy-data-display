@@ -1,0 +1,89 @@
+These configurations have been submitted by users of the script and are offered
+as samples which may save you some customization work.
+
+United Kingdom:
+  Submitted by 'pinto' from Belgium on 29-Jun-2006
+     http://www.joske-online.be/clientraw/buoy.php
+  Config: mybuoy-United_Kingdom.txt
+  Graphic: United_Kingdom.jpg
+
+Lake Erie/Lake Ontario 
+  Submitted by Ann-Marie (weathergirl) from Beamsville, ON  29-Jun-2006
+     http://www.beamsvillewx.ca/marine/marinebuoys.php
+  Config: mybuoy-beamsville.txt
+  Graphic: beamsville.jpg
+
+Lake Huron
+  Submitted by Lewis (tbweather) from Tawas Bay, Michigan 29-Jun-2006, 
+     updated: 9-Jul-2006
+     http://www.tawasbayweather.com/buoys/buoys.php
+  Config: mybuoy-tawasbay.txt
+  Graphic: huronbuoys2.gif
+
+Carolinas Buoys
+  Submitted by Joe of Topsail Weather, Topsail Island, NC - 30-Jun-2006
+     http://topsailweather.com/buoydata.php
+  Config: mybuoy-Carolinas.txt
+  Graphic: (SouthEast.jpg in regular distribution)
+
+Chesapeake Bay
+  Submitted by Steve from Rock Hall, MD - 14-Jul-2006
+     http://www.belcak.com/ChesDelBuoy.php
+  Config: mybuoy-Chesapeake_Bay.txt
+  Graphic: Chesapeake_Bay.jpg
+
+New Jersey Buoys
+  Submitted by Tim from Newtown, PA - 18-Jul-2006
+     http://www.newtownweather.com/buoys.php
+  Config: mybuoy-NewJersey.txt (by Ken from Saratoga, Calif.)
+  Graphic: NewJersey.jpg  (by Ann-Marie from Beamsville, ON )
+
+North East Buoys
+  Submitted by Steve from Boston, MA   -18-Jul-2006
+     http://mycurrentweather.com/
+  Config: mybuoy-NorthEast.txt
+  Graphic: NorthEast.jpg
+
+California Buoys around San Luis Obispo
+  Submitted: by Chris from San Luis Obispo, CA - 26-Aug-2006
+     http://www.sloweather.com/
+  Config: mybuoy-SanLuisObispo.txt
+  Graphic: slobuoymap2.jpg
+
+Long Island Buoys
+  Submitted by Bob from New York
+  http://www.nybodyboarding.com/
+  Config: mybuoy-nybb.txt
+  Graphic: nybbmapmaster.jpg
+
+Western Great Lakes Buoys
+  Submitted by Jim McMurry from Mauston, WI - 22-Sep-2007
+     http://www.jcweather.us/
+  Config: mybuoy-WestGL.txt
+  Graphic: WestGL.jpg
+
+Various East and Gulf Coast Buoys (with better legends)
+  Submitted by Chris from Cape Coral, FL - 28-Aug-2007
+     http://www.capeweather.com/ 
+  Config: mybuoy-Central_Florida.txt  Graphic: (/samples/Central_Florida.jpg)
+  Config: mybuoy-Florida.txt          Graphic: (/samples/Florida.jpg)
+  Config: mybuoy-NorthEast1.txt       Graphic: (/samples/NorthEast.jpg)
+  Config: mybuoy-SouthEast.txt        Graphic: (/samples/SouthEast.jpg)
+  Config: mybuoy-WestGulf.txt         Graphic: (/samples/WestGulf.jpg)
+  Config: mybuoy-WestGulf_inset.txt   Graphic: (/samples/WestGulf_inset.jpg)
+
+Hawaii Buoys
+  Submitted by Stan from Up Country Maui Weather - 15-Oct-2007
+     http://www.dwayneyamato.com/wx/
+  Config:  mybuoy-Hawaii.txt
+  Graphic: Hawaii.jpg
+
+Puget Sound Area Buoys
+  Submitted by Josh from Anderson Island, WA - 25-Dec-2007
+     http://aiweather.com/
+  Config:  mybuoy-puget-sound.txt
+  Graphic: NW_Straits_Sound.jpg
+
+
+
+  

@@ -1,0 +1,52 @@
+# -----------------------------------
+# 
+# Control file for buoy-data.php program
+#  Contributed by John at http://lethamshank.co.uk/met/buoys/wx_buoys.php
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|United_Kingdom-mini.jpg|424,432|180,430|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|54.6N|2W|800|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+62304|Sandettie |323,383,373,397|100,-28|
+62142|Leman |289,321,335,337|70,-26|
+62305|Greenwich |289,403,337,415|140,-10|
+62103|Channel |195,415,243,429|80,-26|
+62107|Sevenstones|129,411,175,427|70,-26|
+62303|Pembroke |189,364,237,380|120,-28|
+62301|Aberporth|165,342,209,358|70,-26|
+62094|M5 Buoy.|117,360,165,376|70,-26|
+62091|M2 Buoy(Lambay)|145,304,193,320|80,0|
+62092|M3 Buoy(Mizen Head)  |83,378,129,390|140,-15|
+62081|K2 Buoy.|27,382,75,398|80,0|
+62090|M1 Buoy(Arran Is.) |31,316,81,330|80,0|
+62105|K4 Buoy.|9,270,57,286|80,0|
+62093|M4 Buoy(Donegal Bay)|73,264,119,280|80,0|
+62125|Morecambe Bay |221,288,263,306|70,-26|
+62145|Indefatigable  |343,315,391,335|100,-32|
+62144|Clipper |283,300,329,320|90,-35|
+62166|Saxon |243,179,289,193|70,-26|
+62164|Guillemot|297,182,341,194|140,-15|
+62147|Everest|291,166,341,176|140,-15|
+62114|Tartan  |291,138,339,150|140,-15|
+63110|Beryl  |289,94,341,106|140,-15|
+63113|Brent|293,38,335,50|140,-15|
+63105|Brent  |253,48,289,60|100,0|
+63112|Cormorant  |253,28,293,40|25,-18|
+63117|Eider |255,10,293,24|23,-18|
+63104|Magnus|295,14,339,26|140,-15|
+64046|K7 Buoy.  |163,46,209,60|80,0|
+64045|K5 Buoy |27,108,75,124|80,0|
+#
+# ---------- end of control file --------

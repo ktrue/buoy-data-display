@@ -1,0 +1,27 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|nybbmapmaster.jpg|720,567|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|42.5N|70.5W|200|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+44039|Long Island Sound|269,238,305,251|
+44017|Southwest of Montauk |330,241,366,276|
+44025|Long Island|262,274,292,288|
+44004|Hotel 200NM East of Cape May, NJ|381,369,418,384|+49,-14|
+44009|Delaware Bay, 26NM S. of Cape May|169,369,190,385|
+#
+# ---------- end of control file --------

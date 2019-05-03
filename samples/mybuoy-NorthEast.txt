@@ -1,0 +1,67 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NorthEast.jpg|722,406|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|42.5N|70.5W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+BRHC3||212,218,250,230|
+BDRN4||142,292,180,305|
+NBLP1||114,270,152,282|
+WELM1||363,109,404,122|
+SGRN4||207,282,247,295|
+BRBN4||194,306,234,320|
+NTKM3||407,223,447,239|
+MTKN6||329,236,370,251|
+PSBM1||648,26,688,42|
+LDLC3||324,218,356,232|
+NLNC3||303,196,341,213|
+CASM1||397,84,436,99|
+44039||324,260,360,275|
+NWHC3||251,205,292,218|
+PHBP1||85,287,121,304|
+OSGN6||46,104,87,118|
+44024||663,162,702,176|
+ABAN6|Alexandria Bay, NY|41,46,81,61|
+THIN6|Thousand I. Brdg., NY|67,72,102,87|
+SUPN6|Superior Shoals, NY|93,50,132,64|
+44039||275,235,306,250|
+44027|JONESPORT|628,61,664,78|
+Rhode Island Map||356,188,393,221|
+44018|SE Cape Cod|507,217,543,232|
+MDRM1|Mt Desert Rock, ME|571,82,613,98|
+44034||567,55,603,71|
+44033||472,69,509,84|
+MISM1|Matinicus Rock, ME|528,94,568,109|
+44032||476,87,512,103|
+44037||589,108,623,123|
+44035||596,26,632,41|
+44036||661,11,699,25|
+44038||677,94,712,109|
+44005|GULF OF MAINE|522,130,559,148|
+44031||451,103,488,119|
+44007|PORTLAND|411,104,443,117|
+44030||425,124,460,140|
+IOSN3|Isle of Shoals, NH|375,129,412,144|
+44029||421,152,455,167|
+44013|BOSTON|371,167,407,182|
+BUZM3|Buzzards Bay, MA|410,197,449,212|
+44011|GEORGES BANK|673,227,707,242|
+44008|NANTUCKET|491,258,529,274|
+44025|LONG ISLAND|257,272,292,286|
+44004|HOTEL|381,369,418,384|
+#
+# ---------- end of control file --------

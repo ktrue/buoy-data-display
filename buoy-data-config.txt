@@ -1,0 +1,68 @@
+<?php
+// This is the optional buoy-data-config.txt file used by buoy-data.php
+//
+// you can put your customization settings here instead of modifying the
+// program itself.  Be careful to keep proper PHP syntax, otherwise
+// the buoy-data.php script will fail.
+//
+//
+// ------- REQUIRED SETTINGS ------
+  $Config = 'mybuoy-Monterey_Bay.txt';        // configuration file name
+//  
+//  use the config file listed above to control the mapimage name, location,
+//  and buoys to be processed.  See the sample files for more examples.
+//
+//
+  $DefaultUnits = 'E';        // 'E' = English, 'M' = Metric, may be 
+//                           overridden by units=M or units=E parameter
+//
+  $ourTZ = 'PST8PDT';  //NOTE: this *MUST* be set correctly to
+// translate UTC times to your LOCAL time for the displays.
+//  http://saratoga-weather.org/timezone.txt  has the list of timezone names
+//  pick the one that is closest to your location and put in $ourTZ like:
+//    $ourTZ = 'America/Los_Angeles';  // or
+//    $ourTZ = 'Europe/Brussels';
+// also available is the list of country codes (helpful to pick your zone
+//  from the timezone.txt table
+//  http://saratoga-weather.org/country-codes.txt : list of country codes
+// ------- END OF REQUIRED SETTINGS ------
+//
+// cacheName is name of file used to store cached NDBC webpage
+// 
+  $cacheName = "NDBC-buoydata.txt";  // used to store the file so we 
+//                                        don't have to fetch it each time
+//  Note: the cache name will have an E or M prepended to the .txt so there
+//    can be separate cache files for English and Metric measurements.
+//  If you use more than one instance of the script in a directory with
+//  different config files, then be sure to change $cacheName to prevent 
+//  interference between the scripts.
+//
+  $refetchSeconds = 600;     // refetch every nnnn seconds (600=10 minutes)
+//
+  $doWindConvert = true;  // convert knots->mph and m/s->kph (override by
+//                          cvt=Y or cvt=N parm on URL.
+  $showKnots = false;      // always show wind in Knots (set =true )
+//                           override by kts=Y or kts=N on URL.
+//
+  $windArrowDir = './arrows/'; // set to directory with wind arrows, or
+//                        set to '' if wind arrows are not wanted
+//                        the program will test to see if images are 
+//                        available, and set it to '' if no images are
+//                        found in the directory specified.
+//                        // used for rotating legend display :
+  $windArrowSize = 'S';   // ='S' for Small 9x9 arrows   (*-sm.gif)
+//                           ='L' for Large 14x14 arrows (*.gif)
+//
+//  program control variables.  Set to false to turn off, or true to turn on
+//  
+  $showNoData = true;    // display 'no recent data' in table
+//                        set to true if you want to see those
+  $doPrintTable = true;   // turn on/off print of the table data
+  $doPrintMap = true;     // turn on/off print of the meso-map
+//
+//$timeFormat = 'D, Y-m-d H:i:s T';  // Fri, 2006-03-31 14:03:22 TZone
+  $timeFormat = 'D, Y-m-d H:i:s T';  //
+//
+//
+// end of settings ------------------------------------------------------
+?>

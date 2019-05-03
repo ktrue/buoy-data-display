@@ -1,0 +1,59 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|SouthEast.jpg|751,440|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|35N|75W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+41033||101,323,136,336|
+SCIS1||97,281,132,295|
+41424||476,288,513,301|
+JMPN7||180,222,219,236|
+41112||60,394,94,407|
+41027||168,270,203,285|
+41035|ONSLOW BAY, NC|223,207,257,221|
+41037||244,247,279,262|
+41038||231,230,266,244|
+FRDF1||10,385,47,401|
+MYPF1||11,407,51,420|
+ORIN7||333,161,369,175|
+BFTN7||269,198,305,213|
+41024||192,249,226,264|
+FPKG1||35,330,72,344|
+FRPS1||56,314,90,328|
+SECG1||108,389,145,404|
+41030||146,321,179,335|
+41029||137,285,174,300|
+SKMG1||108,361,146,375|
+41012|St. Augustine, FL|99,418,134,434|
+SAUF1|St. Augustine, FL|15,423,51,439|
+TYBG1||125,339,163,355|
+41013|FRYING PAN SHO|232,282,266,296|
+41025|Diamond Shoals|340,195,376,210|
+SPAG1||58,369,96,384|
+41001|Cape HATTERAS|490,210,523,224|
+41008|GRAYS REEF|39,350,74,366|
+FBIS1|Folly Island, SC|85,298,119,314|
+41004|EDISTO|168,307,204,322|
+41002|S HATTERAS|337,313,370,328|
+FPSN7|Frying Pan Shoals, NC|236,264,272,277|
+CLKN7|Cape Lookout, NC|283,223,321,238|
+DUCN7|Duck Pier, NC|321,144,357,159|
+MROS1||124,255,165,270|
+SNSN7||146,237,185,253|
+44004|HOTEL|571,46,608,62|
+#
+# ---------- end of control file --------

@@ -1,0 +1,38 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|NewJersey.jpg|590,420|50,225|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|39.61N|74.20W|300|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+44040|Western Long Island Sound|398,100,426,114|+38,-15|
+44022|Execution Rocks|345,108,374,121|-32,-26|
+KPTN6|Kings Point, NY|381,127,412,139|+38,-15|
+BATN6|The Battery, NY|319,130,351,142|
+ALSN6|Ambrose Light, NY|379,159,411,171|
+SDHN4|Sandy Hook, NJ|313,157,349,169|
+SGRN4|Sea Girt, NJ|362,199,401,212|+44,-15|
+NBLP1|Newbold, PA|253,186,289,199|+49,-15|
+BDRN4|Burlington, Delaware River, NJ|286,204,323,218|
+BRBN4|Brant Beach, NJ|332,263,368,279|+44,-15|
+ACMN4|Atlantic City Marina, NJ|257,282,297,294|-6,-28|
+ACYN4|Atlantic City, NJ|314,294,352,307|+44,-15|
+AVAN4|Avalon, NJ|251,298,290,310|+15,0|
+CMAN4|Cape May, NJ|280,321,319,336|+44,-15|
+BRND1|Brandywine Shoal Light, DE|216,312,252,326|
+LWSD1|Lewes, DE|265,340,300,354|+40,-15|
+#
+# ---------- end of control file --------

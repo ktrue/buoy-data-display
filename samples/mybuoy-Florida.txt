@@ -1,0 +1,68 @@
+# -----------------------------------
+#
+# Control file for buoy-data.php program
+#
+# put name of associated image in MAPIMAGE line
+#  MAP | image | W,H | X,Y offset for legend X=0 left, Y=0 top
+MAPIMAGE|Florida.jpg|634,439|5,5|
+#  LOC  | LATITUDE | LONGITUDE | Radial Distance
+# like:
+LOCATION|28.77N|82.71W|1500|
+# for location central to your mesomap. 
+#
+#
+# Buoy | Name | Coords (assoc with MAPIMAGE)| Values Display offset X,Y (optional)
+#
+# Coords are Left,Top,Right,Bottom in pixels for rectangle hotspot link over buoy legend
+#
+# Offsets to jog display -X=to left, +X=to right, -Y=raise, +Y=lower (in pixels)
+#  relative to Left,Bottom coord for display of values.
+#
+41008|GRAYS REEF|399,14,436,30|0,-28|
+42408||42,318,83,335|
+FRDF1||327,50,360,63|-12,0|
+MYPF1||377,63,413,79|38,-15|
+41112||376,46,414,61|0,-28|
+SECG1||426,42,465,57|38,-15|
+BGCF1||300,266,338,281|38,-15|
+VENF1|Venice, FL|321,228,359,245|0,-28|
+42013||245,229,284,246|
+42022||236,195,273,210|
+42021||226,166,260,182|
+HSSF1|Homosassa, FL|307,144,343,158|
+TRDF1||369,155,406,171|0,-28|
+42014||277,324,315,343|0,-28|
+42024||175,209,213,226|
+VAKF1||437,289,476,306|38,-15|
+SGOF1||194,115,234,130|
+APCF1||138,95,177,112|
+KYWF1||307,351,345,367|
+42023||240,283,277,302|
+42003|E GULF|91,287,131,303|0,-28|
+PLSF1||258,348,295,365|
+SANF1|Sand Key, FL|308,380,344,395|
+NFBF1||346,322,384,338|
+SMKF1|Sombrero Key, FL|375,371,415,388|38,-15|
+LONF1|Long Key, FL|400,355,439,371|42,-15|
+MLRF1|Molasses Reef, FL|422,336,463,353|42,-15|
+FWYF1|Fowey Rocks, FL|442,312,481,328|38,-15|
+LKWF1|Lake Worth, FL|394,254,434,270|
+NPSF1||304,284,343,301|
+FMRF1||300,248,338,264|
+VCAF1||346,346,383,362|0,-28|
+SHPF1||222,71,260,85|
+PCLF1||69,48,107,65|0,-28|
+SPGF1|Settlement Point, GBI|503,250,542,267|
+41009|CANAVERAL|433,155,471,173|
+41010|CANAVERAL EAST|519,136,556,154|
+41012|St. Augustine, FL|412,79,452,97|
+CDRF1|Cedar Key, FL|290,122,327,137|
+42036|W. TAMPA|162,156,201,174|
+42039|PENSACOLA|81,142,120,157|
+SAUF1|St. Augustine, FL|333,88,368,107|
+KTNF1|Keaton Beach, FL|259,90,296,108|
+PCBF1||139,58,178,76|
+42040|MOBILE SOUTH|26,121,61,137|
+DPIA1|Dauphin Island, AL|7,82,43,98|
+#
+# ---------- end of control file --------
