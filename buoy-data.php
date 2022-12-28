@@ -23,8 +23,9 @@
 //                Version 1.17 - 31-Aug-2012 added template support+decode chunked responses from NDBC
 //                Version 1.18 - 24-Feb-2015 fixed gmmktime() call for deprecated argument in PHP 5.6+
 //                Version 1.19 - 27-Jun-2018 use curl to fetch with https for www.ndbc.noaa.gov
+//                Version 1.20 - 27-Dec-2022 fixes for PHP 8.1
 //
-    $Version = "buoy-data.php V1.19 27-Jun-2018";
+    $Version = "buoy-data.php V1.20 27-Dec-2022";
 // error_reporting(E_ALL);  // uncomment to turn on full error reporting
 // script available at http://saratoga-weather.org/scripts.php
 //  
@@ -802,8 +803,8 @@ global $updated,$maxDistance,$distUnits, $Units, $table, $scroller,$CSS,$LegendX
   if ($LegendY) {$Top = $LegendY;}
  //------------customize this CSS entry for font/color/background for legend 
 	$CSS .= "#mesolegend {
-      top:  ${Top}px;
-      left: ${Left}px;
+      top:  {$Top}px;
+      left: {$Left}px;
 	  font-size: 10pt;
 	  color: #0000FF;
 	  background-color: #FFFFFF;
@@ -833,8 +834,8 @@ global $updated,$maxDistance,$distUnits, $Units, $table, $scroller,$CSS,$LegendX
 
 
    $CSS .= "#BuoyControls {
-	  top: ${Top}px;
-	  left: ${Left}px;
+	  top: {$Top}px;
+	  left: {$Left}px;
 	  font-family: Verdana, Arial, Helvetica, sans-serif; 
 	  font-size: 8pt;
 	  font-weight: normal;
@@ -931,7 +932,7 @@ function prt_tabledata($ID) {
   if ($WDIR <> 'n/a') {
     $wda = getWindDir($WDIR);
 	if ($windArrowDir) {
-    	$scroller .= "<img src=\"$windArrowDir${wda}${windGIF}\" $windSIZE  
+    	$scroller .= "<img src=\"$windArrowDir{$wda}{$windGIF}\" $windSIZE  
 	    alt=\"Wind from $wda\" title=\"Wind from $wda\" style=\"float: left\"/>";
 	}
     $scroller .= getWindDir($WDIR) . " " . 
@@ -943,14 +944,14 @@ function prt_tabledata($ID) {
   <span class=\"content3\">";
   
 //  if ($GST <> 'n/a' && $wda && $windArrowDir) { 
-//    	$scroller .= "<img src=\"$windArrowDir${wda}${windGIF}\" $windSIZE  
+//    	$scroller .= "<img src=\"$windArrowDir{$wda}{$windGIF}\" $windSIZE  
 //	    alt=\"Wind from $wda\" title=\"Wind from $wda\" align=\"left\"/>";
 //  }
   $scroller .=  convertWind($GST) . " " . $Units['wind'] . "</span>
   <span class=\"content4\">$PRES ". $Units['baro'] . "</span>
   <span class=\"content5\">$PTDY ". $Units['baro'] . "</span>
   <span class=\"content6\">$WVHT " . $Units['wave'] . "</span>
-  <span class=\"content7\">${DPD} sec</span>
+  <span class=\"content7\">{$DPD} sec</span>
 </p>\n";
 
 // now generate the CSS to place the rotating display over the map
@@ -970,8 +971,8 @@ function prt_tabledata($ID) {
 	}
 
 	$CSS .= "#buoy$ID {
-      top:  ${Bottom}px;
-      left: ${Left}px;
+      top:  {$Bottom}px;
+      left: {$Left}px;
 }
 ";
 
